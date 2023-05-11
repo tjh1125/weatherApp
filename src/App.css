@@ -1,0 +1,98 @@
+.container {
+  display: block;
+  margin: 10px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+input {
+  margin: 0 10px;
+}
+
+button {
+  margin: 0 3px;
+}
+
+.weather_container {
+  margin: 25px 20px 0;
+}
+
+.weather_container .weather_highlight {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.weather_row {
+  font-size: 14px;
+  display: flex;
+}
+
+.weather_title{
+  min-width: 120px;
+  color: grey;
+}
+
+.history_container {
+  margin-top: 25px;
+}
+
+.history_row {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.history_content_lf {
+  flex-grow: 1;
+}
+
+.history_content_rgt {
+  margin: 0 5px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background: lightgray;
+}
+
+.icon_search {
+  width: 16px;
+  height: 16px;
+  background-image: url("../public/icon_search.png");
+  background-size: contain;
+}
+
+.icon_del {
+  width: 18px;
+  height: 18px;
+  background-image: url("../public/icon_delete.png");
+  background-size: contain;
+}
+
+.norecord_msg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80px;
+  color: grey;
+}
+
+.alert_box {
+  font-size: 14px;
+  line-height: 25px;
+  padding: 0 5px;
+  background: #fbdbdb;
+  border: 1px solid #db2626;
+  margin-top: 10px;
+}
